@@ -16,39 +16,39 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content:center;
-    margin: 20px; 
-}
-
-h1 {
-    color: gold;
-    font-family: roboto;
-    margin: 20px;
-    text-align: center;
     
-    
-}
-
-.titulo {
-    color: gold;
-    font-family: roboto;
-    margin-left:30px;
 }
 
 .navbanner {
     display: flex;
     justify-content: center;
-    margin: 20px;
     align-items: center;
     flex-direction: column;
     
 }
 
 
-.navlogo img {
+.navlogo {
     display: flex;
-    height: 150px;
     justify-content:center;
+    margin-top: 60px;
+}
+
+.navlogo img{
+    height: 150px;
+}
+
+.navtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
     
+.navtext h1 {
+    color: gold;
+    font-family: roboto;
+    text-align: center;
 }
 
 .container {
@@ -56,6 +56,7 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 
   /* Card */
@@ -114,7 +115,7 @@ h1 {
 
 .card-titulo {
     font-size: 32px;
-    margin: 0 px;
+    margin: 0px;
     padding: 16px;
 }
 
